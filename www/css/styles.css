@@ -1,0 +1,348 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select {
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+  font-size: 17px
+}
+
+h1{ font-weight: 400;
+ font-size: 17px;
+ color: #2F4F4F;
+ padding: 0px !important;
+ margin: 10px !important;
+ text-align:center;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ line-height:0.8;
+ }
+
+.h1_onglet2{ font-weight: 400;
+ font-size: 17px;
+ color: #212529;
+ padding: 0px !important;
+ margin: 10px !important;
+ text-align:center;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ line-height:0.8;
+ }
+
+ .h1_onglet3{ font-weight: 400;
+ font-size: 17px;
+ color: #198754;
+ padding: 0px !important;
+ margin: 10px !important;
+ text-align:center;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ line-height:0.8;
+ }
+
+.h1_onglet4{ font-weight: 400;
+ font-size: 17px;
+ color: #0d6efd;
+ padding: 0px !important;
+ margin: 10px !important;
+ text-align:center;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ line-height:0.8;
+ }
+
+.h1_cart{ font-weight: 400;
+ font-size: 25px;
+ color: #2F4F4F;
+ padding: 0px !important;
+ margin: 10px !important;
+ text-align:center;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ line-height:0.8;
+ }
+
+
+
+
+.h1modif{
+ font-size: 17px;
+ color: #2F4F4F;
+ padding: 0px ;
+ margin: 0px ;
+ text-align:left;
+ font-family: "Nunito Sans";
+ }
+
+h4 { font-size: 20px;
+ color: #2F4F4F;
+ font-family: "Nunito Sans";
+ font-weight: bold;
+ text-align:center !important;}
+
+h2
+{font-size: 15px;
+text-align: left;
+padding: 0px !important;
+ margin: 0px !important;
+}
+
+h3{font-size: 12px;
+text-align: center;
+}
+
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 10px 10px 10px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.9;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 1;
+  transition-delay: 0;
+}
+
+#logo {
+  /* Appearance */
+  background-color: transparent;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.25;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+
+#logo:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+
+
+hr.popup {
+  border: 1px solid #198754;
+  opacity: 1;
+  margin: 0.5em auto;
+}
+
+hr.popup2 {
+  border: 1px solid #0d6efd;
+  opacity: 1;
+  margin: 0.5em auto;
+}
+
+
+
+
+/* Customize size of layer control */
+.leaflet-control-layers-list {
+	font-size: 30px;
+ }
+
+
+
+.leaflet .legend {
+  padding: 8px 8px;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  line-height:25px;
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+  /*border-radius: 5px;*/
+  color: black;
+}
+
+.legend i {
+  font-size: 14px;
+  opacity: 1;
+  color: black;
+}
+
+.sidebar-menu li a { font-size: 17px; }
+
+.verygoodimage{ background-color:#94b49f;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 160px;
+            height: 35px;
+ }
+
+.goodimage{ background-color:#b4cfb0;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 160px;
+            height: 35px;
+ }
+
+.okimage{ background-color:#e5e3c9;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 160px;
+            height: 35px;
+}
+
+.badimage{ background-color:#ffddd2;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 160px;
+            height: 35px;
+}
+
+.verybadimage{ background-color:#ffb9b9;
+            color: black;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 160px;
+            height: 35px;
+}
+
+.navbar-default .navbar-brand {font-size: 25px;
+font-family: "Nunito Sans";
+ font-weight: bold;}
+
+
+
+#map{
+  height: calc(100vh - 50px) !important;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 49px;
+}
+
+#map_demo{
+  height: calc(100vh - 50px) !important;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 49px;
+}
+
+
+.btn-myClass.btn {
+    color: #fff;
+    background-color: #198754;
+    border-color: #fff;
+    border-width: thin;
+}
+
+.btn-myClass2.btn {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #fff;
+    border-width: thin;
+}
+
+
+#checkbox :after{
+     background-color:#2F4F4F;
+                            }
+
+#mail{color: black;
+    background-color: rgba(25, 135, 84 0.4) !important;
+    font-size: 15px;
+}
+
+#validation{background-color: #198754;
+color: white;
+border-color: #fff;
+font-weight: bold;
+vertical-align- middle;}
+
+div#date_e input.form-control {
+    background-color: rgba(25, 135, 84, 0.4) !important;
+    text-align:center;
+    color: black !important;
+}
+
+#change_choice :after{
+     background-color:#198754;
+                            }
+#osm_choice :after{
+     background-color:#198754;
+                            }
+
+#change_choice2 :after{
+     background-color:#0d6efd;
+                            }
+
+#osm_choice2 :after{
+     background-color:#0d6efd;
+                            }
+
+#output_choice :after{
+     background-color:#2F4F4F;
+                            }
+
+#mail2{color: black;
+    background-color: rgba(13, 110, 253, 0.4) !important;
+    font-size: 15px;
+}
+
+#validation2{background-color: ##0d6efd;
+color: white;
+border-color: #fff;
+font-weight: bold;
+vertical-align- middle;}
+
+div#date_e2 input.form-control {
+    background-color: rgba(13, 110, 253, 0.4) !important;
+    text-align:center;
+    color: black !important;
+}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.modal-title {
+    margin: 0 auto;
+}
+
+#input_date_control {
+    background-color: rgba(255,255,255,1);
+    }
+
+#input_demo {
+    background-color: rgba(255,255,255,1);
+    }

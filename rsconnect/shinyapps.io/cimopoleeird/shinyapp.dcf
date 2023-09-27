@@ -1,0 +1,11 @@
+name: shinyapp
+title:
+username:
+account: cimopoleeird
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8510323
+bundleId: 6929375
+url: https://cimopoleeird.shinyapps.io/shinyapp/
+when: 1678253529.16304
+lastSyncTime: 1678253529.16311

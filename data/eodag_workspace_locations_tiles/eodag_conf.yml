@@ -1,0 +1,4 @@
+peps:
+            download:
+                outputs_prefix: "/home/florent/PycharmProjects/Cyclone/ShinyApp/data/eodag_workspace_locations_tiles"
+                extract: true

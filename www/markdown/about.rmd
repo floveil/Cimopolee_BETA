@@ -1,0 +1,24 @@
+---
+title: "about"
+output: html_notebook
+---
+
+
+<div align="center">
+<span style="color:#2F4F4F;font-size:30px;font-family: "Nunito Sans"">
+Welcome to CIMOPOLEE !
+</span>
+</div>
+
+
+## **CIMOPOLEE**, a project accredited by the Space Climate Observatory (SCO):
+
+
+The ClimHealth project aims to integrate climate and environmental information from satellites into health surveillance systems to develop early warning and guide disease control. This project is realized by UMR Espace-Dev UMR Espace-Dev with participants from IRD and University of La Réunion based at SEAS-OI . It is funded by CNES and has been accredited by the Space Climate Observatory (SCO) International Initiative.
+
+
+Type any R code in the chunk, for example:
+
+
+Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
+Click the **Knit and Open Document** to build and preview an output.
